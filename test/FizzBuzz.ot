@@ -1,0 +1,20 @@
+/*
+ * Otter code to solve FizzBuzz
+*/
+
+import (
+    "Package1" as pkg1
+    "Package2" as pkg2
+)
+
+max = 100
+
+for (i = 0, i < max, i++):
+    if (i%3==0 && i%5==0): // both and keyword and double ampersand work
+        println("FizzBuzz")
+    else if (i%3==0):
+        println("Fizz")
+    else if (i%5==0):
+        println("Buzz)
+    else:
+        println(i)
