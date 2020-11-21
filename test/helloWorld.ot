@@ -1,0 +1,14 @@
+/*
+sample multiline comment 
+*/
+
+// single line comment - imports like go :D
+import (
+    "Package1" as pkg1
+    "Package2" as pkg2 
+)
+
+
+helloWorld = "HelloWorld"
+
+println(helloWorld)
