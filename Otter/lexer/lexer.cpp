@@ -1,4 +1,5 @@
 #include "token.h"
+#include "lexer.h"
 #include <iostream>
 
 static std::string identifierStr;
