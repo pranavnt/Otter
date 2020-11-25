@@ -29,4 +29,11 @@ static int getTokens()
             return tok_extern;
         return tok_identifier;
     }
+
+    return -1;
+}
+
+int main()
+{
+    std::cout << getTokens();
 }
