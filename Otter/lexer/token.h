@@ -1,4 +1,4 @@
-enum class Token
+enum Token
 {
     tok_eof = -1,
 
