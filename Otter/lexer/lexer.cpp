@@ -72,6 +72,7 @@ static int getTokens()
     return thisChar;
 }
 
+// main for basic testing
 int main()
 {
     std::cout << getTokens();
